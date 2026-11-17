@@ -96,12 +96,6 @@ python -m unittest discover -s tests -v
 
 Python 3.9+ is needed to regenerate the files, but not to use the skill. These commands check that the package is consistent. They don't test whether the assistant produces good designs. For that, use the [test scenarios](tests/scenarios.md) and test any prototypes in a browser.
 
-## Before publishing
-
-The package hasn't been tested end to end in every supported tool. Accessibility checks also need to be carried out on each generated prototype. Don't treat a review score as evidence from real users.
-
-There's no licence in the repository yet. I'll add one before publishing it publicly on GitHub.
-
 ## References
 
 [Agent Skills specification](https://agentskills.io/specification) | [Codex](https://developers.openai.com/codex/skills) | [Claude Code](https://code.claude.com/docs/en/skills) | [Cursor](https://cursor.com/docs/skills) | [Gemini CLI](https://geminicli.com/docs/cli/skills/) | [Kiro](https://kiro.dev/docs/skills/) | [GitHub Copilot](https://docs.github.com/en/copilot/reference/custom-agents-configuration)
